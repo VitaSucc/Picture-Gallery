@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+
+}
+
+.gallery {
+
+}
+
+.image {
+
+}
+
+.slidin-from-left {
+    animation-name: slidin-from-left;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    transform: translateX(-100vw);
+}
+
+@keyframes slidin-from-left {
+    to {
+        transform: translateX(0px);
+    }
+}

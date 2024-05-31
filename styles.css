@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    margin-left: 20px
 }
 
 img {
@@ -27,4 +27,9 @@ img {
     to {
         transform: translateX(0px);
     }
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }

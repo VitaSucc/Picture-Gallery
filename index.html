@@ -4,19 +4,42 @@
     <title>Home</title>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width" />
-    <h1>
-      Picture Gallery Kodeloftet
-    </h1>
-    <link rel="stylesheet" href="styles.css" />
+       <h1> Picture Gallery Kodeloftet </h1>
+      <link rel="stylesheet" href="styles.css" />
+      <script type="module" src="carusel.js"></script>
   </head>
   <body>
-    <main class="gallery">
-      <img class="image slidin-from-left" src="images/Ulrikstoppen_redigert.jpg" alt="">
-      <img class="image slidin-from-left" src="images/20240222_121939_redigert.jpg" alt="">
-      <img class="image slidin-from-left" src="images/IMG20240418124509_redigert.jpg" alt="">
-      <img class="image slidin-from-left" src="images/IMG20240418124804_redigert.jpg">
-      <img class="image slidin-from-left" src="images/IMG_2135_redigert.jpg" alt="">
-      <img class="image slidin-from-left" src="images/IMG_1844_redigert.jpg" alt="">
+    <main class="carusel">
+      <div class="controls">
+  
+        <div class="back-n-fourth">
+          <div>
+            <button id="first-button">First</button>
+            <button id="previous-button">Previous</button>
+          </div>
+  
+          <div>
+            <button id="next-button">Next</button>
+            <button id="last-button">Last</button>
+          </div>
+        </div>
+  
+      </div>
+      <div class="gallery">
+        <div data-current="true" class="image" src="images/Ulrikstoppen_redigert.jpg">
+          <p>1</p> </div>
+        <div data-current="false" class="image" src="images/20240222_121939_redigert.jpg">
+          <p>2</p> </div>
+        <div data-current="false" class="image" src="images/IMG20240418124509_redigert.jpg">
+          <p>3</p> </div>
+         <div data-current="false" class="image" src="images/IMG20240418124804_redigert.jpg">
+          <p>4</p> </div>
+         <div data-current="false" class="image" src="images/IMG_2135_redigert.jpg">
+          <p>5</p> </div>
+         <div data-current="false" class="image" src="images/IMG_1844_redigert.jpg">
+          <p>6</p> </div>
+        </div>
+
     </main>
   </body>
 </html>

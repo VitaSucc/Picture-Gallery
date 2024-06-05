@@ -33,7 +33,7 @@ img {
 }
 
 .image {
-    background-color: purple;
+    background-color: rgb(179, 143, 179);
     border: 1px solid darkslategray;
 
     height: 98vh;
